@@ -21,7 +21,7 @@ modules:
     repos:
       copr:
         - atim/starship
-	- wezfurlong/wezterm-nightly
+        - wezfurlong/wezterm-nightly
       files:
         - 1password.repo
 	- vscode.repo
