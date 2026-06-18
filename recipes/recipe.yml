@@ -38,6 +38,7 @@ modules:
         - gtkgreet
         - greetd
         - waybar
+        - initial-setup
         - initial-setup-gui-wayland-sway
         - nmap-ncat
         - emacs
@@ -83,3 +84,4 @@ modules:
       enabled:
         - greetd
         - sshd
+        - initial-setup
