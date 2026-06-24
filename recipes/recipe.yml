@@ -22,6 +22,7 @@ modules:
       copr:
         - atim/starship
         - wezfurlong/wezterm-nightly
+        - lionheartp/Hyprland
       files:
         - 1password.repo
         - vscode.repo
@@ -39,7 +40,6 @@ modules:
         - greetd
         - waybar
         - initial-setup
-        - initial-setup-gui-wayland-sway
         - nmap-ncat
         - emacs
         - rofi
@@ -47,6 +47,14 @@ modules:
         - 1password-cli
         - code
         - wezterm
+        - gtklock
+        - hyprland
+        - hyprland-guiutils
+        - hyprlauncher 
+        - hyprlock
+        - wev
+        - fprintd
+        - frpintd-pam
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
@@ -62,6 +70,7 @@ modules:
         install: # system flatpaks we want all users to have and not remove
          - org.mozilla.firefox
          - org.gnome.Loupe
+         - org.gnome.DejaDup
       - scope: user # Also add Flathub user repo, but no user packages
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
@@ -85,3 +94,4 @@ modules:
         - greetd
         - sshd
         - initial-setup
+        - fprintd
