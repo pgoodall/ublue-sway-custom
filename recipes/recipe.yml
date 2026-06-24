@@ -54,7 +54,7 @@ modules:
         - hyprlock
         - wev
         - fprintd
-        - frpintd-pam
+        - fprintd-pam
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
