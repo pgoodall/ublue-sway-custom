@@ -51,7 +51,8 @@ modules:
         - hyprland
         - hyprland-guiutils
         - hyprlauncher 
-        - hyprlock
+        - hyprlock # requires a config in $XDG_CONFIG_HOME/hypr/hyprlock.conf
+        - hyperidle # requires a config in $XDG_CONFIG_HOME/hypr/hypridle.conf
         - wev
         - fprintd
         - fprintd-pam
