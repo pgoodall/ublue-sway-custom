@@ -24,12 +24,10 @@ modules:
         - wezfurlong/wezterm-nightly
         - lionheartp/Hyprland
       files:
-        - 1password.repo
         - vscode.repo
         - https://download.docker.com/linux/fedora/docker-ce.repo
         - firefoxpwa.repo
       keys:
-        - https://downloads.1password.com/linux/keys/1password.asc
         - https://packages.microsoft.com/keys/microsoft.asc
         - https://packagecloud.io/filips/FirefoxPWA/gpgkey/filips-FirefoxPWA-912AD9BE47FEB404.pub.gpg
     install:
@@ -46,8 +44,6 @@ modules:
         - nmap-ncat
         - emacs
         - rofi
-        - 1password
-        - 1password-cli
         - code
         - wezterm
         - gtklock
