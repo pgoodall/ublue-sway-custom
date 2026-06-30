@@ -46,9 +46,8 @@ modules:
         - nmap-ncat
         - emacs
         - rofi
-        - 1password
-        - 1password-cli
         - code
+        - 1password
         - wezterm
         - gtklock
         - hyprland
